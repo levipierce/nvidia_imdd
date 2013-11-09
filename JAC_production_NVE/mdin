@@ -1,0 +1,17 @@
+ Typical Production MD NVE with
+ GOOD energy conservation. Use ntpr to increase 
+ frequency of mdinfo output. ntwx coordinates
+ &cntrl
+   ntx=5, irest=1,
+   ntc=2, ntf=2, tol=0.000001,
+   nstlim=100000, 
+   ntpr=100, ntwx=100,
+   ntwr=10000, 
+   dt=0.002, cut=8.,
+   ntt=0, ntb=1, ntp=0,
+   ioutfm=1,
+ /
+ &ewald
+  dsum_tol=0.000001,
+ /
+
