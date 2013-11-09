@@ -1,3 +1,11 @@
+__doc__="""
+$Revision: 0.0 $
+
+Will dynamically launch molecular dynamics simulations on GPU's and allow
+the user to visualize the simulation in real time.
+
+Author: Levi Pierce levipierce@gmail.com 
+"""
 import sys, os, re
 import threading, time
 from subprocess import Popen, PIPE
